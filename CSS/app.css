@@ -26,6 +26,9 @@ body {
     flex-flow: wrap;
     justify-content: center;
 }
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 
 .destination {
     background: #03a9f4;
@@ -34,6 +37,7 @@ body {
     margin: 0.5em;
     min-height: 200px;
     flex: 0 1 200px;
+    transition: transform 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
